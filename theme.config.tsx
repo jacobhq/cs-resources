@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: '© 2024, Jacob Marshall',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Jacob Marshall'
+    }
+  }
 }
 
 export default config
